@@ -1,0 +1,17 @@
+<svg width="760" height="560" viewBox="0 0 760 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="760" height="560" fill="#080808"/>
+  <g opacity=".9" fill="#F3F3F3">
+    <circle cx="170" cy="258" r="3"/><circle cx="190" cy="242" r="3"/><circle cx="210" cy="228" r="3"/><circle cx="230" cy="214" r="3"/><circle cx="250" cy="202" r="3"/><circle cx="270" cy="194" r="3"/><circle cx="290" cy="190" r="3"/><circle cx="310" cy="190" r="3"/><circle cx="330" cy="198" r="3"/><circle cx="350" cy="214" r="3"/><circle cx="366" cy="236" r="3"/><circle cx="376" cy="262" r="3"/>
+    <circle cx="254" cy="248" r="3"/><circle cx="276" cy="248" r="3"/><circle cx="298" cy="250" r="3"/><circle cx="320" cy="254" r="3"/><circle cx="342" cy="262" r="3"/><circle cx="364" cy="274" r="3"/><circle cx="386" cy="290" r="3"/><circle cx="408" cy="310" r="3"/><circle cx="430" cy="332" r="3"/>
+    <circle cx="222" cy="290" r="3"/><circle cx="246" cy="302" r="3"/><circle cx="270" cy="314" r="3"/><circle cx="294" cy="328" r="3"/><circle cx="318" cy="342" r="3"/><circle cx="342" cy="354" r="3"/><circle cx="366" cy="360" r="3"/><circle cx="390" cy="358" r="3"/><circle cx="414" cy="348" r="3"/>
+    <circle cx="454" cy="220" r="3"/><circle cx="478" cy="222" r="3"/><circle cx="502" cy="232" r="3"/><circle cx="526" cy="250" r="3"/><circle cx="546" cy="274" r="3"/><circle cx="558" cy="302" r="3"/><circle cx="560" cy="332" r="3"/><circle cx="552" cy="362" r="3"/><circle cx="534" cy="390" r="3"/><circle cx="506" cy="412" r="3"/>
+    <circle cx="454" cy="274" r="3"/><circle cx="476" cy="288" r="3"/><circle cx="498" cy="306" r="3"/><circle cx="516" cy="328" r="3"/><circle cx="528" cy="354" r="3"/><circle cx="532" cy="382" r="3"/>
+    <circle cx="182" cy="338" r="3"/><circle cx="206" cy="362" r="3"/><circle cx="232" cy="384" r="3"/><circle cx="262" cy="404" r="3"/><circle cx="296" cy="420" r="3"/><circle cx="334" cy="430" r="3"/><circle cx="374" cy="432" r="3"/><circle cx="414" cy="424" r="3"/><circle cx="452" cy="406" r="3"/>
+  </g>
+  <g opacity=".7" stroke="#E7C59A" stroke-width="1">
+    <path d="M104 160H280"/><path d="M124 184H234"/><path d="M506 126H650"/><path d="M548 152H684"/><path d="M94 430H254"/><path d="M526 456H688"/>
+  </g>
+  <g opacity=".55" fill="#00AC5C">
+    <circle cx="108" cy="160" r="4"/><circle cx="652" cy="126" r="4"/><circle cx="258" cy="430" r="4"/><circle cx="690" cy="456" r="4"/>
+  </g>
+</svg>
