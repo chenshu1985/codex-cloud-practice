@@ -8,10 +8,12 @@ Use Codex Cloud to read a GitHub repository, understand its structure, and later
 
 ## Static page
 
-This repository now includes a simple static webpage:
+This repository now includes a dark, terminal-inspired static tutorial page:
 
 - `index.html`
 - `style.css`
+
+The page summarizes 12 advanced Codex workflows: sandboxing, permissions, steering, planning, worktrees, rollback, cloud runs, memory, plugins, automation, skills, and MCP.
 
 To view it with GitHub Pages, enable Pages for the `main` branch from the repository settings, then open:
 

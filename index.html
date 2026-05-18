@@ -1,28 +1,167 @@
 <!doctype html>
-<html lang="en">
+<html lang="zh-CN">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Learning Codex Cloud</title>
+    <title>Codex Super Agent Playbook</title>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <main class="page">
-      <section class="hero" aria-labelledby="page-title">
-        <p class="eyebrow">Codex Cloud Practice</p>
-        <h1 id="page-title">Learning Codex Cloud</h1>
-        <p class="intro">
-          This small static page helps verify the full workflow: create a GitHub
-          repository, let Codex update files, and publish the result with GitHub Pages.
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Codex Playbook home">
+        <span class="brand-mark">C</span>
+        <span>Codex Playbook</span>
+      </a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#matrix">12 Plays</a>
+        <a href="#path">Path <span>NEW</span></a>
+        <a class="chat-link" href="https://github.com/chenshu1985/codex-cloud-practice">GitHub</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="scan-grid" aria-hidden="true"></div>
+        <div class="hero-copy">
+          <p class="status"><span></span> SUPER AGENT MODE ONLINE</p>
+          <h1>Codex 的 12 个进阶玩法</h1>
+          <p class="hero-text">
+            从安全沙箱到云端 PR，从插件自动化到 MCP 数据库连接。把 Codex 当作一个可规划、
+            可执行、可审查的工程代理，而不是只会补全代码的聊天框。
+          </p>
+          <div class="hero-actions" aria-label="Page actions">
+            <a class="primary-action" href="#matrix">START NOW</a>
+            <a class="secondary-action" href="#path">VIEW PATH</a>
+          </div>
+        </div>
+        <aside class="terminal-panel" aria-label="Codex workflow status">
+          <div class="terminal-top">
+            <span></span><span></span><span></span>
+          </div>
+          <pre><code>$ codex learn --advanced
+status: connected
+repo: github/codex-cloud-practice
+mode: cloud + local
+output: 12 play tutorial</code></pre>
+        </aside>
+      </section>
+
+      <section class="section-intro">
+        <p class="label">/ QUICK MAP</p>
+        <h2>先掌握控制权，再扩大执行面。</h2>
+        <p>
+          这 12 条可以分成三层：基础控制、协作交付、系统扩展。学会它们后，你会知道什么时候让
+          Codex 读代码、什么时候让它改代码、什么时候让它在云端替你开 PR。
         </p>
       </section>
 
-      <section class="steps" aria-labelledby="steps-title">
-        <h2 id="steps-title">Three-step learning checklist</h2>
-        <ol>
-          <li>Connect a GitHub repository to Codex Cloud.</li>
-          <li>Ask Codex to inspect, edit, and summarize the project.</li>
-          <li>Review the changes, publish the page, and repeat with a real project.</li>
+      <section id="matrix" class="play-grid" aria-label="12 Codex advanced plays">
+        <article class="play-card">
+          <span class="number">01</span>
+          <p class="tag">SAFETY</p>
+          <h3>沙箱</h3>
+          <p>理解 Codex 能读写哪里、不能越过哪里。把实验范围限制在工作区里，是所有自动化的安全底座。</p>
+        </article>
+
+        <article class="play-card">
+          <span class="number">02</span>
+          <p class="tag">PERMISSION</p>
+          <h3>权限三档</h3>
+          <p>低风险命令自动执行，高风险动作再确认。重点不是放开权限，而是让审查点出现在正确位置。</p>
+        </article>
+
+        <article class="play-card">
+          <span class="number">03</span>
+          <p class="tag">CONTROL</p>
+          <h3>Steer 引导</h3>
+          <p>任务跑偏时及时打断、纠偏、追加约束。越早 steering，越少返工，尤其适合 UI 和复杂改动。</p>
+        </article>
+
+        <article class="play-card">
+          <span class="number">04</span>
+          <p class="tag">PLAN</p>
+          <h3>Plan 模式</h3>
+          <p>复杂任务先让 Codex 拆步骤、标风险、列验证方式。你确认路线后再执行，避免一上来乱改。</p>
+        </article>
+
+        <article class="play-card">
+          <span class="number">05</span>
+          <p class="tag">PARALLEL</p>
+          <h3>Git Worktree</h3>
+          <p>同一个仓库开多个独立工作区，让不同任务并行推进。适合 A/B 方案、并行修 bug、隔离实验。</p>
+        </article>
+
+        <article class="play-card">
+          <span class="number">06</span>
+          <p class="tag">ROLLBACK</p>
+          <h3>Git 一键回滚</h3>
+          <p>不满意就用 Git 恢复代码状态，而不是让 Agent 猜着改回去。版本控制是你最后的刹车系统。</p>
+        </article>
+
+        <article class="play-card featured">
+          <span class="number">07</span>
+          <p class="tag">CLOUD</p>
+          <h3>云端运行</h3>
+          <p>把仓库授权给 Codex Cloud，让它在云端读项目、改文件、跑检查、开 PR。电脑不用一直开着。</p>
+        </article>
+
+        <article class="play-card">
+          <span class="number">08</span>
+          <p class="tag">MEMORY</p>
+          <h3>双层记忆系统</h3>
+          <p>全局记忆写个人偏好和安全规则，项目记忆写当前 repo 的约定。让 Codex 每次都从同一套规则出发。</p>
+        </article>
+
+        <article class="play-card">
+          <span class="number">09</span>
+          <p class="tag">PLUGIN</p>
+          <h3>Plugin 三件套</h3>
+          <p>连接 GitHub、Gmail、Figma 等外部工具。Codex 不只写代码，也能读取上下文并推动工作流。</p>
+        </article>
+
+        <article class="play-card">
+          <span class="number">10</span>
+          <p class="tag">AUTOMATION</p>
+          <h3>自动化</h3>
+          <p>把重复任务变成定时执行：日报、仓库巡检、邮件摘要、看板整理。让 Agent 周期性替你盯住事情。</p>
+        </article>
+
+        <article class="play-card">
+          <span class="number">11</span>
+          <p class="tag">SKILL</p>
+          <h3>Skill</h3>
+          <p>把稳定流程封装成 SOP。比如代码审查、PPT 生成、文档转换，下次直接调用，不用重新教一遍。</p>
+        </article>
+
+        <article class="play-card">
+          <span class="number">12</span>
+          <p class="tag">MCP</p>
+          <h3>MCP + Supabase</h3>
+          <p>通过 MCP 连接真实服务和数据库。Codex 可以从写代码升级到操作表结构、接口和业务数据流。</p>
+        </article>
+      </section>
+
+      <section id="path" class="learning-path">
+        <div>
+          <p class="label">/ STUDY ORDER</p>
+          <h2>推荐学习顺序</h2>
+        </div>
+        <ol class="path-list">
+          <li>
+            <span>01-04</span>
+            <strong>基础控制</strong>
+            <p>先学沙箱、权限、Steer、Plan，掌握如何让 Agent 安全地听你指挥。</p>
+          </li>
+          <li>
+            <span>05-08</span>
+            <strong>协作交付</strong>
+            <p>再练 Worktree、回滚、云端运行、记忆系统，把任务交付变成可审查的工程流程。</p>
+          </li>
+          <li>
+            <span>09-12</span>
+            <strong>系统扩展</strong>
+            <p>最后接入插件、自动化、Skill、MCP，让 Codex 进入你的长期工作系统。</p>
+          </li>
         </ol>
       </section>
     </main>
